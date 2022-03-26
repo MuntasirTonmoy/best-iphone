@@ -11,10 +11,16 @@ const SelectedPhones = (props) => {
     const randomPhone = () => {
         const randomNumber = Math.floor(Math.random() * cart.length);
         setRandom(cart[randomNumber]);
-        removeCart(cart);
-    
     }
 
+    const removeRandom = () => {
+        const randomNumber = Math.floor(Math.random() * cart.length);
+        setRandom(cart[randomNumber] = []);
+    }
+
+    
+
+    
      return (
         <div className='selected-phones'>
             <h2 className='text-center'>Selected Phones</h2>
@@ -23,10 +29,9 @@ const SelectedPhones = (props) => {
                     selectedPhone={selectedPhone}
                 ></CartElement>)
             }
-            <Random random={random}></Random>
+            <Random random={random}></Random> 
            <p> <button className='btn' onClick={randomPhone}>Choose One for me</button></p>
-            <button className='btn' onClick={() => removeCart(cart)}>Remove All</button>
-           
+           <p onClick={removeRandom}> <button className='btn' onClick={() => removeCart(cart)}>Remove All</button></p>
         </div>
     );
 };

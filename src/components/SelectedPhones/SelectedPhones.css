@@ -1,13 +1,12 @@
 .selected-phones{
     padding: 3rem 2rem;
     font-size: 1.8rem;
-    position: sticky;
-    top: 0;
 }
 
 .text-center{
     text-align: center;
 }
+
 
 .btn{
     background: #FFFFFF;
@@ -42,8 +41,6 @@
 
 @media only screen and (max-width: 600px) {
 
-    .selected-phones{
-        
-    }
+    
     
 }

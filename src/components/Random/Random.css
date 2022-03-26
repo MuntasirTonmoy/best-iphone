@@ -1,5 +1,5 @@
 .choosen-phone{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: 0;
     padding: 2rem;
     color: rgb(12, 138, 12);
     font-size: 2rem;
@@ -9,4 +9,4 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }

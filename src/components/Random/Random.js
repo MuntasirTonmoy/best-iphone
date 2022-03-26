@@ -5,8 +5,8 @@ const Random = (props) => {
      
     return (
         <div className='choosen-phone'>
-            <p>We Choose Apple {props.random.name} for you.</p>
             <img src={props.random.image} alt="" />
+            <h3>{props.random.name}</h3>
         </div>
     );
 };

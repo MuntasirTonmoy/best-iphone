@@ -4,7 +4,7 @@ import Phones from './components/Phones/Phones';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header></Header>
       <Phones></Phones>
     </div>

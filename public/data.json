@@ -1,0 +1,68 @@
+[
+	{
+		"id": "1",
+		"name": "iPhone 13 mini",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg",
+		"price": 699
+	},
+	{
+		"id": "2",
+		"name": "iPhone 13 Pro",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg",
+		"price": 999
+	},
+	{
+		"id": "3",
+		"name": "iPhone 13 Pro Max",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg",
+		"price": 1099
+	},
+	{
+		"id": "4",
+		"name": "iPhone 13",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg",
+		"price": 799
+	},
+	{
+		"id": "5",
+		"name": "iPhone 12 Pro Max",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro-max-.jpg",
+		"price": 1000
+	},
+	{
+		"id": "6",
+		"name": "iPhone 12 Pro",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-pro--.jpg",
+		"price": 999
+	},
+	{
+		"id": "7",
+		"name": "iPhone 12",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12.jpg",
+		"price": 799
+	},
+	{
+		"id": "8",
+		"name": "iPhone 12 mini",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-12-mini.jpg",
+		"price": 699
+	},
+	{
+		"id": "9",
+		"name": "iPhone 11 Pro Max",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro.jpg",
+		"price": 999
+	},
+	{
+		"id": "10",
+		"name": "iPhone 11 Pro",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11-pro-max-.jpg",
+		"price": 899
+	},
+	{
+		"id": "11",
+		"name": "iPhone 11",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg",
+		"price": 699
+	}
+]

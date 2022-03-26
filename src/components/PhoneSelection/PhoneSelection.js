@@ -1,10 +1,27 @@
 import './PhoneSelection.css';
-import React from 'react';
+import React, { useState } from 'react';
+import CartElement from '../CartElement/CartElement';
+import Random from './Random/Random';
 
-const PhoneSelection = () => {
-    return (
+const PhoneSelection = (props) => {
+
+    const [random, setRandom] = useState([]);
+  
+    const random1 = () => {
+        const randomNumber = Math.floor(Math.random() * props.cart.length);
+        setRandom(props.cart[randomNumber])
+    
+    }
+
+     return (
         <div className='phone-selection'>
-            <h2 className='text-center'>Selected Phones</h2>
+            {
+                props.cart.map( phone => <CartElement phone={phone}
+                ></CartElement>)
+            }
+            <Random random={random}></Random>
+            <button onClick={random1}>Random</button>
+           
         </div>
     );
 };

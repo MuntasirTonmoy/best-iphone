@@ -13,15 +13,27 @@ const Phones = () => {
         .then(data => setPhones(data))
     }, []);
 
+    const [cart, setCart] = useState([]);
+    //passing the handler
+    
+    const handleAddToCart = (phone) => {
+        const newCart = [...cart, phone];
+       setCart(newCart);
+    }
+
     return (
         <div className='phones'>
             <div className='phones-container'>
                 {
-                    phones.map(phone => <Phone phone={phone} key={phone.id}></Phone>)
+                    phones.map(phone => <Phone 
+                        phone={phone} 
+                        key={phone.id}
+                        handleAddToCart={handleAddToCart}
+                        ></Phone>)
                 }
             </div>
             <div className='phone-selection'>
-                <PhoneSelection></PhoneSelection>
+                <PhoneSelection cart={cart}></PhoneSelection>
             </div>
         </div>
     );

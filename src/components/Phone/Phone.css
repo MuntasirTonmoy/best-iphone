@@ -1,6 +1,54 @@
 .phone{
-    border: 0.1rem solid rgb(184, 181, 181);
-    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem 2rem 3rem 2rem;
     margin-right: 3rem;
     width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.phone-name{
+    
+    font-size: 1.8rem;
+}
+
+.btn-cart{
+  background: #FFFFFF;
+  border: 0.1rem solid #FF4742;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  color: #FF4742;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 12px 14px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.btn-cart:hover,
+.btn-cart:active {
+  background-color: #FF4742;
+  background-position: 0 0;
+  color: white;
+}
+
+.btn-cart:active {
+  opacity: .5;
+}
+
+@media only screen and (max-width: 600px) {
+    .phone{
+        margin: 0;
+        width: 85%;
+    }
+    
+
 }

@@ -3,8 +3,8 @@ import React from 'react';
 
 const PhoneSelection = () => {
     return (
-        <div>
-            <h3>this is phone selection area</h3>
+        <div className='phone-selection'>
+            <h2 className='text-center'>Selected Phones</h2>
         </div>
     );
 };

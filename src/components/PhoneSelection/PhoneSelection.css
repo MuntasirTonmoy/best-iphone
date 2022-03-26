@@ -1,0 +1,12 @@
+.phone-selection{
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    border-radius: .8rem;
+}
+
+.text-center{
+    text-align: center;
+}

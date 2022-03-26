@@ -1,5 +1,7 @@
 import './Phone.css';
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+  import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Phone = (props) => {
     //destructuring
@@ -8,7 +10,8 @@ const Phone = (props) => {
         <div className='phone'>
             <img src={image} alt={name} />
             <p className='phone-name'>Name: Apple {name}</p>
-            <p>Price: ${price}</p>
+            <p>Price: <strong>${price}</strong></p>
+            <button className='btn-cart'>Add to cart <FontAwesomeIcon icon={faShoppingCart} /></button>
         </div>
     );
 };

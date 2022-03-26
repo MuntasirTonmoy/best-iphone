@@ -1,11 +1,12 @@
 import './CartElement.css'
 import React from 'react';
 
-const CartElement = (props) => { 
+const CartElement = (props) => {
+    const {selectedPhone} = props;
 
     return (
-        <div>
-            <p>{props.phone.name}</p>
+        <div className='selected-phone'>
+            <img src={selectedPhone.image} alt="" /><p>{selectedPhone.name}</p>
         </div>
        
     );

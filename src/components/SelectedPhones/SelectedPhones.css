@@ -1,0 +1,49 @@
+.selected-phones{
+    padding: 3rem 2rem;
+    font-size: 1.8rem;
+    position: sticky;
+    top: 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    background: #FFFFFF;
+    border: 0.1rem solid #FF4742;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    color: #FF4742;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+  }
+  
+  .btn:hover,
+  .btn:active {
+    background-color: #ff635e;
+    background-position: 0 0;
+    color: white;
+  }
+  
+  .btn-cart:active {
+    opacity: .5;
+  }
+
+@media only screen and (max-width: 600px) {
+
+    .selected-phones{
+        
+    }
+    
+}

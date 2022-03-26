@@ -9,19 +9,32 @@
     grid-template-columns: repeat(3,1fr);
     row-gap: 3.5rem;
 }
+.selected-phones-container{
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem;
+    border-radius: .8rem;
+}
 
 @media only screen and (max-width: 600px) {
     
     .phones{
         display: flex;
         flex-direction: column;
-        
     }
     .phones-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         row-gap: 3.5rem;
         order: 2;
+    }
+    .selected-phones-container{
+        order: 1;
+        background-color: rgba(240, 248, 255, 0.932);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 1rem;
+        margin-bottom: 4rem;
+        border-radius: .8rem;
     }
 
 }

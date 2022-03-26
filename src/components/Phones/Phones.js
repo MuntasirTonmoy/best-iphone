@@ -1,11 +1,12 @@
 import './Phones.css';
 import React, { useEffect, useState } from 'react';
 import Phone from '../Phone/Phone';
-import PhoneSelection from '../PhoneSelection/PhoneSelection';
+import SelectedPhones from '../SelectedPhones/SelectedPhones';
 
 const Phones = () => {
     
     //get data by using useState and useEffect
+    
     const [phones, setPhones] = useState([]);
     useEffect( () => {
         fetch('data.json')
@@ -17,8 +18,8 @@ const Phones = () => {
     
     //passing the handler
     
-    const handleAddToCart = (phone) => {
-        const newCart = [...cart, phone];
+    const handleAddToCart = (addedPhone) => {
+        const newCart = [...cart, addedPhone];
        setCart(newCart);
     }
 
@@ -27,9 +28,6 @@ const Phones = () => {
         setCart(cart);
     }
 
-    
-
-   
 
     return (
         <div className='phones'>
@@ -42,11 +40,11 @@ const Phones = () => {
                         ></Phone>)
                 }
             </div>
-            <div className='phone-selection-part'>
-                <PhoneSelection 
+            <div className='selected-phones-container'>
+                <SelectedPhones 
                 cart={cart}
                 removeCart={removeCart}
-                ></PhoneSelection>
+                ></SelectedPhones>
             </div>
         </div>
     );

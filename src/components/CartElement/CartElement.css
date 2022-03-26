@@ -1,0 +1,12 @@
+.selected-phone{
+    border-bottom: .1rem solid gray;
+    padding: 0.2rem;
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.selected-phone img{
+    width: 3rem;
+}

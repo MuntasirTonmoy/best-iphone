@@ -25,7 +25,7 @@
   display: inline-block;
   font-size: 1.8rem;
   font-weight: 600;
-  padding: 12px 14px;
+  padding: 1rem 1.2rem;
   text-align: center;
   user-select: none;
   -webkit-user-select: none;
@@ -35,7 +35,7 @@
 
 .btn-cart:hover,
 .btn-cart:active {
-  background-color: #FF4742;
+  background-color: #ff635e;
   background-position: 0 0;
   color: white;
 }

@@ -4,6 +4,9 @@ import CartElement from '../CartElement/CartElement';
 import Random from './Random/Random';
 
 const PhoneSelection = (props) => {
+    const {removeCart} = props;
+    console.log(props, 'phone selection');
+    
 
     const [random, setRandom] = useState([]);
   
@@ -15,12 +18,15 @@ const PhoneSelection = (props) => {
 
      return (
         <div className='phone-selection'>
+            <h2 className='text-center'>Selected Items</h2>
             {
-                props.cart.map( phone => <CartElement phone={phone}
+                props.cart.map( phone => <CartElement 
+                    phone={phone}
                 ></CartElement>)
             }
             <Random random={random}></Random>
             <button onClick={random1}>Random</button>
+            <button onClick={() => removeCart(props.cart)}>Remove</button>
            
         </div>
     );

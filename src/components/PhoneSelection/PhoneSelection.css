@@ -1,4 +1,4 @@
-.phone-selection{
+.phone-selection-part{
     background-color: aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 1rem;
@@ -12,5 +12,16 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+    .phone-selection-part{
+        order: 1;
+        background-color: aliceblue;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 1rem;
+        margin-bottom: 4rem;
+        position: sticky;
+        top: 0;
+        border-radius: .8rem;
+    }
     
 }

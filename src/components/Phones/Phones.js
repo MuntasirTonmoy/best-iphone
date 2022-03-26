@@ -14,12 +14,22 @@ const Phones = () => {
     }, []);
 
     const [cart, setCart] = useState([]);
+    
     //passing the handler
     
     const handleAddToCart = (phone) => {
         const newCart = [...cart, phone];
        setCart(newCart);
     }
+
+    const removeCart = (cart) => {
+        cart = [];
+        setCart(cart);
+    }
+
+    
+
+   
 
     return (
         <div className='phones'>
@@ -32,8 +42,11 @@ const Phones = () => {
                         ></Phone>)
                 }
             </div>
-            <div className='phone-selection'>
-                <PhoneSelection cart={cart}></PhoneSelection>
+            <div className='phone-selection-part'>
+                <PhoneSelection 
+                cart={cart}
+                removeCart={removeCart}
+                ></PhoneSelection>
             </div>
         </div>
     );

@@ -2,6 +2,7 @@
     background-color: aliceblue;
     padding: 1.5rem;
     text-align: center;
+    border-bottom: .1rem solid lightblue;
 }
 
 .header h1{

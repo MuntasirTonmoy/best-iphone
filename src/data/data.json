@@ -64,5 +64,11 @@
 		"name": "iPhone 11",
 		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-11.jpg",
 		"price": 699
+	},
+	{
+		"id": "12",
+		"name": "iPhone XS Max",
+		"image": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-xs-max-new1.jpg",
+		"price": 499
 	}
 ]
